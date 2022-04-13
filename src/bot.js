@@ -1,10 +1,10 @@
 const dotenv = require("dotenv").config();
 const axios = require("axios").default;
-const { Telegraf } = require("telegraf");
+const { Composer } = require("micro-bot");
 
 const { getPostLink } = require("./igdownloader");
 
-const app = new Telegraf(process.env.BOT_TOKEN);
+const app = new Composer(process.env.BOT_TOKEN);
 
 app.start((ctx) =>
   ctx.reply(
@@ -87,4 +87,4 @@ const makeLink = (link) => {
   return finalLink;
 };
 
-app.launch();
+module.exports = app;
