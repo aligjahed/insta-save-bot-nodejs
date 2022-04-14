@@ -2,9 +2,9 @@
   "name": "instagram-downloader-bot-nodejs",
   "version": "1.0.0",
   "description": "Telegram bot for downloading photos and videos from instagram using nodejs",
-  "main": "index.js",
+  "main": "src/bot.js",
   "scripts": {
-    "start": "micro-bot"
+    "start": "micro-bot -e"
   },
   "keywords": [
     "Telegram",

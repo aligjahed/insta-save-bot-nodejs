@@ -4,7 +4,7 @@ const { Composer } = require("micro-bot");
 
 const { getPostLink } = require("./igdownloader");
 
-const app = new Composer(process.env.BOT_TOKEN);
+const app = new Composer();
 
 app.start((ctx) =>
   ctx.reply(
