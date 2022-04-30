@@ -12,7 +12,7 @@ app.start((ctx) =>
   )
 );
 
-app.command("getPost", async (ctx) => {
+app.command("getpost", async (ctx) => {
   ctx.reply("لطفا لینک پست مورد نظر را ارسال کنید. 🌐");
 
   app.on("text", async (ctx) => {
