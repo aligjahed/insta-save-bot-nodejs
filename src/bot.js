@@ -50,7 +50,7 @@ app.command("getpost", async (ctx) => {
 
 app.help(async (ctx) => {
   await ctx.replyWithPhoto(
-    "https://www.dropbox.com/s/7re4rt20mfl9hbw/1.jpg?raw=1"
+    "https://www.dropbox.com/s/5gylz9qarepf0eb/1.jpg?raw=1"
   );
   await ctx.reply("ابتدا پست مورد نظر را انتخاب کنید. ");
   await ctx.replyWithPhoto(
